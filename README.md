@@ -32,7 +32,6 @@ is `cuda-arch-builder`:
 ```yaml
 cuda-arch-builder:
   candy:
-    # the named box's value is the box BODY; `base:` and the `candy:` list are its keys
     base: arch-builder
     candy:
       - '@github.com/opencharly/layer-nvenc-headers:v2026.239.1627'
