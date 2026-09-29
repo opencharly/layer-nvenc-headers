@@ -26,7 +26,7 @@ header, and adding it to `cuda` would cascade-rebuild them all.
 
 ## How to use it
 
-Compose the layer inside a **builder** image body (the box name's `candy:` node is the box body, whose keys are `base:` and a `candy:` list). The canonical consumer
+Compose the layer in a **builder** box's `candy:` list. The canonical consumer
 is `cuda-arch-builder`:
 
 ```yaml
