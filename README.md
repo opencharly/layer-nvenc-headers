@@ -49,6 +49,8 @@ The headers are present at build time only; they are not needed at runtime.
 
 ## Related
 
+- Closest family skill: `/charly-distros:cuda` — the nearest owning procedure; this
+  repo carries no `skill:` entity of its own.
 - `/charly-distros:cuda` — the CUDA toolkit layer this header complements.
 - `/charly-internals:generate-source` — Containerfile generation for the builder.
 - [`opencharly/opencharly`](https://github.com/opencharly/opencharly) — the umbrella.
